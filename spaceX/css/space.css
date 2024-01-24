@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/spaceX/img/photo-1457365050282-c53d772ef8b2.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    /* background: rgb(0, 0, 0); */
+    height: 20vh;
+    width: 100%; /* Modificado para abarcar toda la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrar verticalmente */
+}
+
+.header__container{
+    width: 50%;
+    height: 51%;
+    background-image: url('/spaceX/img/spacex-logo-symbol-isolated-on-260nw-2279778707-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(15px 17px 6px white);
+    margin-left: 13%;
+}
+
+
+.container-cards {
+    width: 100%;
+    margin: 2% auto;
+    /* background: red; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexbox {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.country {
+    position: relative;
+}
+
+.card {
+    min-width: 300px;
+    min-height: 300px;
+    margin: 20px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.front, .back {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 21px #9090ff;
+}
+
+img {
+    width: 80%;
+    max-width: 300px;
+}
+
+.card {
+    transform-style: preserve-3d;
+    transition: all 2s;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    backface-visibility: hidden;
+}
+
+.back {
+    background-color: #031CA6;
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+}
