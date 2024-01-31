@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "6ae7",
+      "email": "kevin@gmail.com",
+      "password": "Qwerty123!"
+    },
+    {
+      "id": "1254",
+      "email": "kevin9@gmail.com",
+      "password": "Qwerty1!"
+    },
+    {
+      "id": "64d2",
+      "email": "este@gmauk.com",
+      "password": "esteban"
+    }
+  ],
+  "authors": [
+    {
+      "id": "4c4b",
+      "name": "esteban",
+      "age": "21"
+    },
+    {
+      "id": "312b",
+      "name": "Richard",
+      "age": "22"
+    },
+    {
+      "id": "674c",
+      "name": "Richard",
+      "age": "21"
+    },
+    {
+      "id": "827c",
+      "name": "camilo",
+      "age": "55"
+    },
+    {
+      "id": "e954",
+      "name": "",
+      "age": ""
+    }
+  ],
+  "books": [
+    {
+      "id": "da16",
+      "name": "el principito",
+      "date": "2024-01-10",
+      "authorId": "4c4b"
+    },
+    {
+      "id": "54b8",
+      "name": "mil años ",
+      "date": "2024-01-02",
+      "authorId": "674c"
+    }
+  ]
+}
